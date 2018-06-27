@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="" />
+    <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,7 +62,7 @@
           <file leaf-file-name="form-elements.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sub-pages/form-elements.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="385">
+                <state relative-caret-position="279">
                   <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
                 </state>
               </provider>
@@ -144,15 +147,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_typography.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3690">
-                  <caret line="246" selection-start-line="246" selection-end-line="246" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="_side-bar.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_side-bar.scss">
               <provider selected="true" editor-type-id="text-editor">
@@ -180,11 +174,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_page-states.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_page-states.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_page-states.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
+                <state relative-caret-position="117">
                   <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitattributes">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -243,7 +251,6 @@
         <option value="$PROJECT_DIR$/draw.html" />
         <option value="$PROJECT_DIR$/scss/_reset.scss" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scss/_main-pages.scss" />
         <option value="$PROJECT_DIR$/scss/_secondary-pages.scss" />
         <option value="$PROJECT_DIR$/css/main.css" />
@@ -277,6 +284,7 @@
         <option value="$PROJECT_DIR$/sub-pages/second-chance.html" />
         <option value="$PROJECT_DIR$/sub-pages/confirm.html" />
         <option value="$PROJECT_DIR$/sub-pages/form-elements.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -301,9 +309,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3840" />
-    <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1178" />
+    <option name="y" value="322" />
+    <option name="width" value="1440" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -314,18 +322,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="newcastle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newcastle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="newcastle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newcastle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="steps" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="newcastle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newcastle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sub-pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="QPR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QPR" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -498,23 +496,25 @@
       <workItem from="1529917420686" duration="4432000" />
       <workItem from="1530005307050" duration="1961000" />
       <workItem from="1530026436799" duration="810000" />
+      <workItem from="1530029011532" duration="1013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134576000" />
+    <option name="totallyTimeSpent" value="135589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3840" y="22" width="1920" height="1178" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17013232" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33931947" />
-      <window_info id="Gulp" order="2" sideWeight="0.3104435" side_tool="true" visible="true" weight="0.13312034" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68955654" visible="true" weight="0.13312034" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33931947" />
+      <window_info id="Gulp" order="2" sideWeight="0.3118741" side_tool="true" visible="true" weight="0.13312034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6881259" visible="true" weight="0.13312034" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -544,20 +544,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sub-pages/second-chance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2745">
-          <caret line="183" column="68" selection-start-line="183" selection-start-column="68" selection-end-line="183" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steps/step-one.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2265">
-          <caret line="151" column="14" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/steps/step-two.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3720">
@@ -839,7 +825,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_page-states.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="117">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
@@ -905,8 +891,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sub-pages/form-elements.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="279">
           <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
