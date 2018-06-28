@@ -23,6 +23,20 @@ form {
       width: 100%;
     }
   }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: transparent;
+  }
+
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: transparent;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: transparent;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+    color: transparent;
+  }
 }
 
 .inputMaterial {

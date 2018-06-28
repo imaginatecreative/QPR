@@ -32,8 +32,11 @@ footer {
     }
   }
   .inner_wrapper.footer-nav {
-    background-color: $white;
+    background-color: $brand-one;
     text-align: center;
+    *{
+      color: $white;
+    }
     .block {
       padding: 0.2rem;
       display: inline-flex;
@@ -106,7 +109,7 @@ footer {
         list-style: none;
         display: inline-block;
         a {
-          color: $black;
+          color: $white;
           font-size: $header-size / 3.5;
           padding-right: 0.5rem;
           &:after {
@@ -129,7 +132,7 @@ footer {
     width: 100%;
     h6 {
       margin: 0;
-      color: $black;
+      color: $white;
     }
   }
 }

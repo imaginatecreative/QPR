@@ -6,12 +6,14 @@
 }
 
 $white: #ffffff;
-$gray: #C0C0C0;
+$grey: #E5E5E5;
 $darkgray: #797979;
 $black: #2b2b2b;
 
-$brand-one: #1B9FD6;
-$brand-two: #A1DAF8;
+$brand-one: #0A345D;
+$brand-two: #0E4D8B;
+
+
 $brand-three: #0069B4;
 $brand-four: #41C0F0;
 
@@ -105,7 +107,7 @@ $paragraph-line-height: 1.5em;
 $paragraph-margin: 10px;
 
 // Header Styles
-$header-color: #000000;
+$header-color: $brand-two;
 $header-size: rem(45px);
 $header-line-height: 1.25em;
 $header-margin: $paragraph-margin * 1.2;
@@ -117,7 +119,7 @@ $blockquote-line-height: 1.5em;
 $blockquote-margin: 0;
 
 // Links
-$link-color: #4eaff6;
+$link-color: $brand-two;
 
 // hr
 $hr-margin: 30px;
@@ -147,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $header-color;
   font-family: $header-font-family;
   line-height: $header-line-height;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 // Heading One Styles
@@ -162,7 +164,6 @@ h1, h2, h3, h4, h5, h6 {
 // Styleguide typography.heading-one
 h1 {
   font-size: $header-size * 1.2;
-  text-transform: uppercase;
   strong {
     font-size: $header-size * 1.2;
     font-weight: 800;
@@ -192,7 +193,6 @@ h1 {
 // Styleguide typography.heading-two
 h2 {
   font-size: $header-size / 1.4;
-  text-transform: uppercase;
   font-weight: 400;
 
   strong {
@@ -246,9 +246,8 @@ h3, h3 span {
 h4 {
   font-size: $header-size / 1.9;
   font-weight: 400;
-  text-transform: uppercase;
 
-  a, strong, span {
+  strong, span {
     font-size: $header-size / 1.9;
     font-weight: 800;
   }
