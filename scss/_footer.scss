@@ -6,13 +6,11 @@ footer {
   .inner_wrapper.ticker {
     background-color: $white;
     width: 100vw;
-    //display: inline-flex;
     height: 5vh;
     border-left: 5px solid $brand-one;
     border-bottom: 1px solid $brand-one;
     padding-left: 1rem;
     box-sizing: border-box;
-    display: none;
 
     * {
       color: $black;
