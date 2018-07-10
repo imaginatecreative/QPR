@@ -152,6 +152,8 @@
         speed: 10000,
         cssEase:'linear'
     });
+    var stHeight = $('.slick-track').height();
+    $('.slick-slide').css('height',stHeight + 'px' );
 
 
 })(jQuery); // Fully reference jQuery after this point.
