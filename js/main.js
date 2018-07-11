@@ -149,11 +149,47 @@
         autoplay: true,
         autoplaySpeed: 1000,
         pauseOnHover:true,
-        speed: 10000,
-        cssEase:'linear'
+        // speed: 8000,
+        cssEase:'linear',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
     });
-    var stHeight = $('.slider .slick-track').height();
-    $('.slider .slick-slide').css('height',stHeight + 'px' );
+    $(document).load($(window).bind("resize", checkPosition));
+
+    function checkPosition() {
+        if (window.matchMedia('(max-width: 1000px)').matches) {
+            var stHeight = $('.slider .slick-track').height();
+            $('.slider .slick-slide').css('height',stHeight + 'px' );
+        } else {
+            //...
+        }
+    }
 
 
 })(jQuery); // Fully reference jQuery after this point.
