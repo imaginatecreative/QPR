@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -241,7 +239,7 @@
       <find>h1</find>
       <find>newcastleunited</find>
       <find>grou</find>
-      <find>&lt;img src=&quot;img/logo-second.png&quot;&gt;</find>
+      <find />
     </findStrings>
     <replaceStrings>
       <replace>qpr</replace>
@@ -544,16 +542,15 @@
       <workItem from="1531218722698" duration="6062000" />
       <workItem from="1531292038856" duration="365000" />
       <workItem from="1531446107070" duration="22000" />
-      <workItem from="1531881036822" duration="166000" />
+      <workItem from="1531881036822" duration="383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157552000" />
+    <option name="totallyTimeSpent" value="157769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
