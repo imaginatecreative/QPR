@@ -211,8 +211,9 @@
     flex-direction: column;
     .social {
       margin: 1rem auto;
-
       display: inline-flex;
+      justify-content: center;
+
       button {
 
         &:before {
