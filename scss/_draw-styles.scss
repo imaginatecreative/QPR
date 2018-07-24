@@ -210,7 +210,9 @@
     display: inherit;
     flex-direction: column;
     .social {
-      margin-bottom: 1rem;
+      margin: 1rem auto;
+
+      display: inline-flex;
       button {
 
         &:before {
