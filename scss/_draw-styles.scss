@@ -56,13 +56,15 @@
     }
   }
   .inner_top {
-    background-color: $white;
+    background-color: $brand-one;
+    *{
+      color: $white;
+    }
     h4 {
     }
     h1 {
     }
     a {
-      color: $black;
     }
     @media only screen and (min-width: 1000px) {
       flex: 1 1 25%;
