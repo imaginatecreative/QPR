@@ -56,6 +56,7 @@ footer {
       align-items: center;
       &.payment {
         justify-content: flex-start;
+        margin-top: 2rem;
         .methods {
           padding: 10px;
           text-align: center;
@@ -63,6 +64,9 @@ footer {
             max-width: 50px;
             width: 30%;
             display: inline-block;
+          }
+          &~img{
+            max-width: 150px;
           }
         }
       }
