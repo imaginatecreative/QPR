@@ -5,6 +5,15 @@
     .slider {
       div.slick-slide:nth-of-type(1) {
         .inner_slide {
+          background:linear-gradient(to top, rgba(10,52,93,1) 0%,rgba(10,52,93,0.3) 50%,rgba(10,52,93,0) 76%,rgba(10,52,93,0) 100%),  url('../img/hero-one.jpg') center center / cover no-repeat;
+          @media only screen and (max-width: 750px) {
+            background:linear-gradient(to top, rgba(10,52,93,1) 0%,rgba(10,52,93,0.3) 50%,rgba(10,52,93,0) 76%,rgba(10,52,93,0) 100%),  url('../img/hero-one-mobile.jpg') center center / cover no-repeat;
+
+          }
+        }
+      }
+      div.slick-slide:nth-of-type(2) {
+        .inner_slide {
           background:linear-gradient(to top, rgba(10,52,93,1) 0%,rgba(10,52,93,0.3) 50%,rgba(10,52,93,0) 76%,rgba(10,52,93,0) 100%),  url('../img/hero-two.jpg') center center / cover no-repeat;
           @media only screen and (max-width: 750px) {
             background:linear-gradient(to top, rgba(10,52,93,1) 0%,rgba(10,52,93,0.3) 50%,rgba(10,52,93,0) 76%,rgba(10,52,93,0) 100%),  url('../img/hero-two-mobile.jpg') center center / cover no-repeat;
@@ -12,11 +21,29 @@
           }
         }
       }
-      div.slick-slide:nth-of-type(2) {
+      div.slick-slide:nth-of-type(3) {
         .inner_slide {
           background:linear-gradient(to top, rgba(10,52,93,1) 0%,rgba(10,52,93,0.3) 50%,rgba(10,52,93,0) 76%,rgba(10,52,93,0) 100%),  url('../img/hero-three.jpg') center center / cover no-repeat;
           @media only screen and (max-width: 750px) {
             background:linear-gradient(to top, rgba(10,52,93,1) 0%,rgba(10,52,93,0.3) 50%,rgba(10,52,93,0) 76%,rgba(10,52,93,0) 100%),  url('../img/hero-three-mobile.jpg') center center / cover no-repeat;
+
+          }
+        }
+      }
+      div.slick-slide:nth-of-type(4) {
+        .inner_slide {
+          background:linear-gradient(to top, rgba(10,52,93,1) 0%,rgba(10,52,93,0.3) 50%,rgba(10,52,93,0) 76%,rgba(10,52,93,0) 100%),  url('../img/hero-four.jpg') center center / cover no-repeat;
+          @media only screen and (max-width: 750px) {
+            background:linear-gradient(to top, rgba(10,52,93,1) 0%,rgba(10,52,93,0.3) 50%,rgba(10,52,93,0) 76%,rgba(10,52,93,0) 100%),  url('../img/hero-four-mobile.jpg') center center / cover no-repeat;
+
+          }
+        }
+      }
+      div.slick-slide:nth-of-type(5) {
+        .inner_slide {
+          background:linear-gradient(to top, rgba(10,52,93,1) 0%,rgba(10,52,93,0.3) 50%,rgba(10,52,93,0) 76%,rgba(10,52,93,0) 100%),  url('../img/hero-five.jpg') center center / cover no-repeat;
+          @media only screen and (max-width: 750px) {
+            background:linear-gradient(to top, rgba(10,52,93,1) 0%,rgba(10,52,93,0.3) 50%,rgba(10,52,93,0) 76%,rgba(10,52,93,0) 100%),  url('../img/hero-five-mobile.jpg') center center / cover no-repeat;
 
           }
         }
